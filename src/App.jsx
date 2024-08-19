@@ -12,7 +12,7 @@ function App() {
     console.log("-->", selectedTopic);
   }
   console.log("App componenet run");
-  let tabContent = <p>Plz select a topic</p>;
+  let tabContent = <p>Plzz! select a topic</p>;
   if (selectedTopic) {
     tabContent = (
       <div id="tab-content">
